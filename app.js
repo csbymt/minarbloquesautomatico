@@ -125,7 +125,7 @@ function record_earnings() {
 
 }
 
-//My Tesla can now mine bitcoin while on autopilot. Every 24 hours, it reinvests its earnings into paying
+//My Patitominer can now mine bitcoin while on autopilot. Every 24 hours, it reinvests its earnings into paying
 //for its own electricity usage and 3 emerging altcoins based on the results of a 24/7 reinforcement learning agent. 
 //Javascript Code + Demo tomorrow during the livestream!
 
@@ -139,7 +139,7 @@ const account = new CryptoAccount(privateKey);
   
 //Confirm our Address
 console.log(await account.address("BTC"));
-// > "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+// > "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivNa"
 
 //Confirm our balance
 console.log(account.getBalance("BTC"));
