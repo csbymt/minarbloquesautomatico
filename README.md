@@ -1,9 +1,9 @@
-# tesla_bitcoin_miner
-This is the code for "Tesla Bitcoin Miner" this week's live machine learning game show hosted by Siraj Raval
+# Patito_bitcoin_miner
+Este es el codigo para "Patito Bitcoin Miner" inspirado en "Tesla Bitcoin Miner" this week's live machine learning game show hosted by Siraj Raval
 
 ## Overview
-My Tesla can now mine bitcoin while on autopilot using this node.js app that i wrote. Every 24 hours, it reinvests its earnings into paying
-for its own electricity usage and 2 emerging altcoins based on the results of a 24/7 reinforcement learning agent. This code works but can be improved since its not nearly as efficient as it could be (ASIC usage), i will do so during the livestream. The architecture is basically using an M1 mac Mini powered by the Tesla via the chargeport that runs a custom Bitcoin miner, and runs this node app. The node app pays for Tesla charging by sending money to a BitPay account that issues a Visa Card to buy things with BTC earnings. The Visa card is connected to my Tesla account, which automatically charges it for supercharging. It mines bitcoin while on autopilot and im dancing to trance music hands-free, that's the future i want to see. 
+Mi Patitominer ahora puede extraer bitcoins en piloto automático usando esta aplicación node.js. Cada 24 horas, reinvierte sus ganancias en pagar
+para su propio uso de electricidad y 2 altcoins emergentes basadas en los resultados de un agente de aprendizaje de refuerzo 24/7. Este código funciona, pero se puede mejorar ya que no es tan eficiente como podría ser (uso de ASIC), lo haré durante la transmisión en vivo. La arquitectura utiliza básicamente un M1 mac Mini alimentado por Patitominer a través del puerto de carga que ejecuta un minero de Bitcoin personalizado y ejecuta esta aplicación de nodo. La aplicación del nodo paga los cargos de Patito mediante el envío de dinero a una cuenta de BitPay que emite una tarjeta Visa para que el "Tesla" compre cosas con las ganancias de BTC. La tarjeta Visa está conectada a mi cuenta de Tesla, que automáticamente la carga por sobrealimentación. Extrae bitcoins en piloto automático y bailo música trance con las manos libres, ese es el futuro que quiero ver.  
 
 ## Dependencies
 - send-crypto
@@ -13,5 +13,4 @@ for its own electricity usage and 2 emerging altcoins based on the results of a 
 
 ## Usage
 
-Use any computer and a car charger to AC outlet converter so that it's powered by your car. Run Honeyminer on the computer. Download this node app. Install dependencies one by one using npm aka 'npm install send-crypto'. then run the app using 'npm run'. 
-
+Use cualquier computadora y un convertidor de cargador de automóvil a salida de CA para que esté alimentado por su automóvil. Ejecute Honeyminer en la computadora. Descarga esta aplicación de nodo. Instale las dependencias una por una usando npm, también conocido como 'npm install send-crypto'. luego ejecute la aplicación usando 'npm run'. 
